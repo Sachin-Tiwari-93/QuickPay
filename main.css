@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+/* .core-feature {
+  background-size: 100% 100%;
+} */
+
+@media (min-width: 1024px) {
+  .core-feature {
+    background-size: 100% 100%;
+  }
+  .feature-company {
+    animation: 7s infinite linear moveCompany;
+  }
+  @keyframes moveCompany {
+    0% {
+      top: 0;
+    }
+    100% {
+      top: -90%;
+    }
+  }
+  .cbg {
+    background-size: 100% 100%;
+  }
+}
+.feature-company {
+  animation: 7s infinite linear moveCompany;
+}
+@keyframes moveCompany {
+  0% {
+    top: 0;
+  }
+
+  100% {
+    top: -50%;
+  }
+}
+footer div div div ul li a:hover {
+  color: gray;
+}
